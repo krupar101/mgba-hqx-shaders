@@ -5,6 +5,8 @@ import os
 import sys
 
 SCALE = int(sys.argv[1])
+VARIANT = os.environ.get("HQX_VARIANT", "")
+BUNDLE = os.environ.get("HQX_SHADER_BUNDLE", "")
 WIDTH = int(sys.argv[2]) if len(sys.argv) > 2 else 8
 HEIGHT = int(sys.argv[3]) if len(sys.argv) > 3 else 8
 OUT_W = WIDTH * SCALE
@@ -72,8 +74,8 @@ fs = compile_shader(
     + (
         Path(__file__).resolve().parents[1]
         / "shaders"
-        / f"hq{SCALE}x.shader"
-        / f"hq{SCALE}x.fs"
+        / (BUNDLE if BUNDLE else (f"hq{SCALE}x-{VARIANT}.shader" if VARIANT else f"hq{SCALE}x.shader"))
+        / ("hq2x.fs" if BUNDLE.startswith("hq2x-") else f"hq{SCALE}x.fs")
     ).read_text(),
     0x8B30,
 )
@@ -87,7 +89,8 @@ fn(G, "glGetProgramiv", None, U, U, C.POINTER(I))(program, 0x8B82, C.byref(ok))
 log = C.create_string_buffer(65536)
 fn(G, "glGetProgramInfoLog", None, U, I, P, P)(program, len(log), None, log)
 assert ok.value, log.value.decode()
-print(f"PASS: HQ{SCALE}X compiles and links with mGBA 0.10.5 OpenGL shader header")
+display_name = BUNDLE or f"HQ{SCALE}X" + (f" {VARIANT}" if VARIANT else "")
+print(f"PASS: {display_name} compiles and links with mGBA 0.10.5 OpenGL shader header")
 
 
 def texture(width, height, data=None):

@@ -3,8 +3,8 @@
 Bug reports and small, focused pull requests are welcome.
 
 1. Read [the compatibility notes](docs/COMPATIBILITY.md).
-2. Change `tools/generate.py`, not just the generated `.fs` files.
-3. Run `make test`, inspect the regenerated shaders, then run `make package`.
+2. Change `tools/generate.py` (modern) or `tools/generate_classic.py` (16-bit), not just the generated `.fs` files.
+3. Run `make verify` and `make package-test`; inspect generated shaders and update any affected documentation.
 4. Include the tested mGBA version, GPU/driver and any rendering differences.
 
 The primary invariant is pixel equality with the pinned VBA-M portable 32-bit

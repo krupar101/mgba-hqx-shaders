@@ -27,3 +27,22 @@ builds or fetching code during tests.
 
 The preview is generated with `tools/preview.py` and uses the shipped shaders.
 Its small original scene is intentionally unrelated to commercial games.
+
+## Classic 16-bit HQ2X generation
+
+`tools/generate_classic.py` runs after `tools/generate.py`. It reuses the
+balanced 256-case shader rules generated from the checksummed HQ2x table, then
+converts every weighted interpolation expression to packed RGB565/RGB555 math.
+The shader quantizes the sampled RGB888 texels **before** computing YUV edge
+thresholds, uses the upstream `interp_16_diff` algorithm, and preserves packed
+16-bit masked interpolation/truncation.
+
+The 4x display bundles reuse exactly the same HQ2x fragment shader but set the
+pass size to 4x. Each of the four output positions across a row uses one of the
+two HQ2x subpixels twice (nearest enlargement), retaining classic HQ2x edges.
+
+Independent `build/ref2-classic-*.cpp` wrappers call the pinned upstream
+`interp_16_*` and `hq2x.h` C table with `interp_set(15)` or `interp_set(16)`.
+The actual OpenGL output is validated against these compiled wrappers, so the
+generated GLSL interpolation and 15/16-bit color comparisons are tested end to
+end rather than solely against another shader implementation.

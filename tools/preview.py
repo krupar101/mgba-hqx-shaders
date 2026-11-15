@@ -16,7 +16,9 @@ if len(sys.argv) > 1:
     import gl_render
 
     source = Image.open(BUILD / "sample.png").convert("RGB")
-    rendered = gl_render.render(list(source.getdata()))
+    # Pillow 12 deprecates getdata(); support both new and older versions.
+    pixels = source.get_flattened_data() if hasattr(source, "get_flattened_data") else source.getdata()
+    rendered = gl_render.render(list(pixels))
     image = Image.new("RGBA", (96 * scale, 64 * scale))
     image.putdata(rendered)
     image.convert("RGB").save(BUILD / f"hq{scale}x-preview.png")
