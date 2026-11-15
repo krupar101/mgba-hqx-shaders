@@ -10,7 +10,7 @@ import zipfile
 ROOT = Path(__file__).resolve().parents[1]
 DIST = ROOT / "dist"
 DIST.mkdir(exist_ok=True)
-ARCHIVE = DIST / "mgba-vba-hqx-shaders.zip"
+ARCHIVE = DIST / "mgba-hqx-shaders.zip"
 BUNDLES = sorted((ROOT / "shaders").glob("*.shader"))
 assert BUNDLES and all(folder.is_dir() for folder in BUNDLES)
 files = sorted(path for folder in BUNDLES for path in folder.rglob("*") if path.is_file())

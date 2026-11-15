@@ -9,7 +9,7 @@ import zipfile
 from check_repo import EXPECTED
 
 ROOT = Path(__file__).resolve().parents[1]
-ARCHIVE = ROOT / "dist" / "mgba-vba-hqx-shaders.zip"
+ARCHIVE = ROOT / "dist" / "mgba-hqx-shaders.zip"
 SHA256SUMS = ROOT / "dist" / "SHA256SUMS"
 
 

@@ -21,7 +21,7 @@ jobs:
         run: make package-test
       - uses: actions/upload-artifact@v4
         with:
-          name: mgba-vba-hqx-shaders-installable
+          name: mgba-hqx-shaders-installable
           path: |
-            dist/mgba-vba-hqx-shaders.zip
+            dist/mgba-hqx-shaders.zip
             dist/SHA256SUMS
