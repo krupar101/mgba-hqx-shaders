@@ -258,7 +258,7 @@ if(pattern<1){
         PIXEL31_60
         PIXEL32_60
         PIXEL33_20
-        
+
 
 }else{
 
@@ -278,7 +278,7 @@ if(pattern<1){
         PIXEL31_60
         PIXEL32_60
         PIXEL33_20
-        
+
 
 }
 
@@ -301,7 +301,7 @@ if(pattern<3){
         PIXEL31_60
         PIXEL32_60
         PIXEL33_20
-        
+
 
 }else{
 
@@ -321,7 +321,7 @@ if(pattern<3){
         PIXEL31_60
         PIXEL32_60
         PIXEL33_20
-        
+
 
 }
 
@@ -347,7 +347,7 @@ if(pattern<5){
         PIXEL31_60
         PIXEL32_60
         PIXEL33_20
-        
+
 
 }else{
 
@@ -367,7 +367,7 @@ if(pattern<5){
         PIXEL31_60
         PIXEL32_60
         PIXEL33_20
-        
+
 
 }
 
@@ -390,7 +390,7 @@ if(pattern<7){
         PIXEL31_60
         PIXEL32_60
         PIXEL33_20
-        
+
 
 }else{
 
@@ -410,7 +410,7 @@ if(pattern<7){
         PIXEL31_60
         PIXEL32_60
         PIXEL33_20
-        
+
 
 }
 
@@ -439,7 +439,7 @@ if(pattern<9){
         PIXEL31_61
         PIXEL32_60
         PIXEL33_20
-        
+
 
 }else{
 
@@ -459,7 +459,7 @@ if(pattern<9){
         PIXEL31_61
         PIXEL32_60
         PIXEL33_20
-        
+
 
 }
 
@@ -489,7 +489,7 @@ if(pattern<11){
         PIXEL31_61
         PIXEL32_60
         PIXEL33_20
-        
+
 
 }else{
 
@@ -515,7 +515,7 @@ if(pattern<11){
         PIXEL31_61
         PIXEL32_60
         PIXEL33_20
-        
+
 
 }
 
@@ -541,7 +541,7 @@ if(pattern<13){
         PIXEL31_61
         PIXEL32_60
         PIXEL33_20
-        
+
 
 }else{
 
@@ -561,7 +561,7 @@ if(pattern<13){
         PIXEL31_61
         PIXEL32_60
         PIXEL33_20
-        
+
 
 }
 
@@ -593,7 +593,7 @@ if(pattern<15){
         PIXEL31_61
         PIXEL32_60
         PIXEL33_20
-        
+
 
 }else{
 
@@ -622,7 +622,7 @@ if(pattern<15){
         PIXEL31_61
         PIXEL32_60
         PIXEL33_20
-        
+
 
 }
 
@@ -654,7 +654,7 @@ if(pattern<17){
         PIXEL31_60
         PIXEL32_61
         PIXEL33_80
-        
+
 
 }else{
 
@@ -674,7 +674,7 @@ if(pattern<17){
         PIXEL31_60
         PIXEL32_61
         PIXEL33_80
-        
+
 
 }
 
@@ -704,7 +704,7 @@ if(pattern<19){
         PIXEL31_60
         PIXEL32_61
         PIXEL33_80
-        
+
 
 }else{
 
@@ -733,7 +733,7 @@ if(pattern<19){
         PIXEL31_60
         PIXEL32_61
         PIXEL33_80
-        
+
 
 }
 
@@ -759,7 +759,7 @@ if(pattern<21){
         PIXEL31_60
         PIXEL32_61
         PIXEL33_80
-        
+
 
 }else{
 
@@ -779,7 +779,7 @@ if(pattern<21){
         PIXEL31_60
         PIXEL32_61
         PIXEL33_80
-        
+
 
 }
 
@@ -808,7 +808,7 @@ if(pattern<23){
         PIXEL31_60
         PIXEL32_61
         PIXEL33_80
-        
+
 
 }else{
 
@@ -837,7 +837,7 @@ if(pattern<23){
         PIXEL31_60
         PIXEL32_61
         PIXEL33_80
-        
+
 
 }
 
@@ -866,7 +866,7 @@ if(pattern<25){
         PIXEL31_61
         PIXEL32_61
         PIXEL33_80
-        
+
 
 }else{
 
@@ -886,7 +886,7 @@ if(pattern<25){
         PIXEL31_61
         PIXEL32_61
         PIXEL33_80
-        
+
 
 }
 
@@ -921,7 +921,7 @@ if(pattern<27){
         PIXEL31_61
         PIXEL32_61
         PIXEL33_80
-        
+
 
 }else{
 
@@ -947,7 +947,7 @@ if(pattern<27){
         PIXEL31_61
         PIXEL32_61
         PIXEL33_80
-        
+
 
 }
 
@@ -973,7 +973,7 @@ if(pattern<29){
         PIXEL31_61
         PIXEL32_61
         PIXEL33_80
-        
+
 
 }else{
 
@@ -993,7 +993,7 @@ if(pattern<29){
         PIXEL31_61
         PIXEL32_61
         PIXEL33_80
-        
+
 
 }
 
@@ -1022,7 +1022,7 @@ if(pattern<31){
         PIXEL31_61
         PIXEL32_61
         PIXEL33_80
-        
+
 
 }else{
 
@@ -1054,7 +1054,7 @@ if(pattern<31){
         PIXEL31_61
         PIXEL32_61
         PIXEL33_80
-        
+
 
 }
 
@@ -1089,7 +1089,7 @@ if(pattern<33){
         PIXEL31_60
         PIXEL32_60
         PIXEL33_20
-        
+
 
 }else{
 
@@ -1109,7 +1109,7 @@ if(pattern<33){
         PIXEL31_60
         PIXEL32_60
         PIXEL33_20
-        
+
 
 }
 
@@ -1132,7 +1132,7 @@ if(pattern<35){
         PIXEL31_60
         PIXEL32_60
         PIXEL33_20
-        
+
 
 }else{
 
@@ -1152,7 +1152,7 @@ if(pattern<35){
         PIXEL31_60
         PIXEL32_60
         PIXEL33_20
-        
+
 
 }
 
@@ -1178,7 +1178,7 @@ if(pattern<37){
         PIXEL31_60
         PIXEL32_60
         PIXEL33_20
-        
+
 
 }else{
 
@@ -1198,7 +1198,7 @@ if(pattern<37){
         PIXEL31_60
         PIXEL32_60
         PIXEL33_20
-        
+
 
 }
 
@@ -1221,7 +1221,7 @@ if(pattern<39){
         PIXEL31_60
         PIXEL32_60
         PIXEL33_20
-        
+
 
 }else{
 
@@ -1241,7 +1241,7 @@ if(pattern<39){
         PIXEL31_60
         PIXEL32_60
         PIXEL33_20
-        
+
 
 }
 
@@ -1270,7 +1270,7 @@ if(pattern<41){
         PIXEL31_81
         PIXEL32_60
         PIXEL33_20
-        
+
 
 }else{
 
@@ -1290,7 +1290,7 @@ if(pattern<41){
         PIXEL31_81
         PIXEL32_60
         PIXEL33_20
-        
+
 
 }
 
@@ -1322,7 +1322,7 @@ if(pattern<43){
         PIXEL31_81
         PIXEL32_60
         PIXEL33_20
-        
+
 
 }else{
 
@@ -1351,7 +1351,7 @@ if(pattern<43){
         PIXEL31_81
         PIXEL32_60
         PIXEL33_20
-        
+
 
 }
 
@@ -1377,7 +1377,7 @@ if(pattern<45){
         PIXEL31_81
         PIXEL32_60
         PIXEL33_20
-        
+
 
 }else{
 
@@ -1397,7 +1397,7 @@ if(pattern<45){
         PIXEL31_81
         PIXEL32_60
         PIXEL33_20
-        
+
 
 }
 
@@ -1427,7 +1427,7 @@ if(pattern<47){
         PIXEL31_81
         PIXEL32_60
         PIXEL33_20
-        
+
 
 }else{
 
@@ -1451,7 +1451,7 @@ if(pattern<47){
         PIXEL31_81
         PIXEL32_60
         PIXEL33_20
-        
+
 
 }
 
@@ -1483,7 +1483,7 @@ if(pattern<49){
         PIXEL31_60
         PIXEL32_61
         PIXEL33_80
-        
+
 
 }else{
 
@@ -1503,7 +1503,7 @@ if(pattern<49){
         PIXEL31_60
         PIXEL32_61
         PIXEL33_80
-        
+
 
 }
 
@@ -1533,7 +1533,7 @@ if(pattern<51){
         PIXEL31_60
         PIXEL32_61
         PIXEL33_80
-        
+
 
 }else{
 
@@ -1562,7 +1562,7 @@ if(pattern<51){
         PIXEL31_60
         PIXEL32_61
         PIXEL33_80
-        
+
 
 }
 
@@ -1588,7 +1588,7 @@ if(pattern<53){
         PIXEL31_60
         PIXEL32_61
         PIXEL33_80
-        
+
 
 }else{
 
@@ -1608,7 +1608,7 @@ if(pattern<53){
         PIXEL31_60
         PIXEL32_61
         PIXEL33_80
-        
+
 
 }
 
@@ -1637,7 +1637,7 @@ if(pattern<55){
         PIXEL31_60
         PIXEL32_61
         PIXEL33_80
-        
+
 
 }else{
 
@@ -1666,7 +1666,7 @@ if(pattern<55){
         PIXEL31_60
         PIXEL32_61
         PIXEL33_80
-        
+
 
 }
 
@@ -1695,7 +1695,7 @@ if(pattern<57){
         PIXEL31_81
         PIXEL32_61
         PIXEL33_80
-        
+
 
 }else{
 
@@ -1715,7 +1715,7 @@ if(pattern<57){
         PIXEL31_81
         PIXEL32_61
         PIXEL33_80
-        
+
 
 }
 
@@ -1752,7 +1752,7 @@ if(pattern<59){
         PIXEL31_81
         PIXEL32_61
         PIXEL33_80
-        
+
 
 }else{
 
@@ -1785,7 +1785,7 @@ if(pattern<59){
         PIXEL31_81
         PIXEL32_61
         PIXEL33_80
-        
+
 
 }
 
@@ -1811,7 +1811,7 @@ if(pattern<61){
         PIXEL31_81
         PIXEL32_61
         PIXEL33_80
-        
+
 
 }else{
 
@@ -1831,7 +1831,7 @@ if(pattern<61){
         PIXEL31_81
         PIXEL32_61
         PIXEL33_80
-        
+
 
 }
 
@@ -1860,7 +1860,7 @@ if(pattern<63){
         PIXEL31_81
         PIXEL32_61
         PIXEL33_80
-        
+
 
 }else{
 
@@ -1890,7 +1890,7 @@ if(pattern<63){
         PIXEL31_81
         PIXEL32_61
         PIXEL33_80
-        
+
 
 }
 
@@ -1928,7 +1928,7 @@ if(pattern<65){
         PIXEL31_10
         PIXEL32_10
         PIXEL33_80
-        
+
 
 }else{
 
@@ -1948,7 +1948,7 @@ if(pattern<65){
         PIXEL31_10
         PIXEL32_10
         PIXEL33_80
-        
+
 
 }
 
@@ -1971,7 +1971,7 @@ if(pattern<67){
         PIXEL31_10
         PIXEL32_10
         PIXEL33_80
-        
+
 
 }else{
 
@@ -1991,7 +1991,7 @@ if(pattern<67){
         PIXEL31_10
         PIXEL32_10
         PIXEL33_80
-        
+
 
 }
 
@@ -2017,7 +2017,7 @@ if(pattern<69){
         PIXEL31_10
         PIXEL32_10
         PIXEL33_80
-        
+
 
 }else{
 
@@ -2037,7 +2037,7 @@ if(pattern<69){
         PIXEL31_10
         PIXEL32_10
         PIXEL33_80
-        
+
 
 }
 
@@ -2060,7 +2060,7 @@ if(pattern<71){
         PIXEL31_10
         PIXEL32_10
         PIXEL33_80
-        
+
 
 }else{
 
@@ -2080,7 +2080,7 @@ if(pattern<71){
         PIXEL31_10
         PIXEL32_10
         PIXEL33_80
-        
+
 
 }
 
@@ -2116,7 +2116,7 @@ if(pattern<73){
         PIXEL23_61
         PIXEL32_10
         PIXEL33_80
-        
+
 
 }else{
 
@@ -2145,7 +2145,7 @@ if(pattern<73){
         PIXEL23_61
         PIXEL32_10
         PIXEL33_80
-        
+
 
 }
 
@@ -2180,7 +2180,7 @@ if(pattern<75){
         PIXEL23_61
         PIXEL32_10
         PIXEL33_80
-        
+
 
 }else{
 
@@ -2206,7 +2206,7 @@ if(pattern<75){
         PIXEL31_10
         PIXEL32_10
         PIXEL33_80
-        
+
 
 }
 
@@ -2239,7 +2239,7 @@ if(pattern<77){
         PIXEL23_61
         PIXEL32_10
         PIXEL33_80
-        
+
 
 }else{
 
@@ -2268,7 +2268,7 @@ if(pattern<77){
         PIXEL23_61
         PIXEL32_10
         PIXEL33_80
-        
+
 
 }
 
@@ -2305,7 +2305,7 @@ if(pattern<79){
         PIXEL23_61
         PIXEL32_10
         PIXEL33_80
-        
+
 
 }else{
 
@@ -2338,7 +2338,7 @@ if(pattern<79){
         PIXEL23_61
         PIXEL32_10
         PIXEL33_80
-        
+
 
 }
 
@@ -2377,7 +2377,7 @@ if(pattern<81){
         }
         PIXEL30_80
         PIXEL31_10
-        
+
 
 }else{
 
@@ -2404,7 +2404,7 @@ if(pattern<81){
         }
         PIXEL30_80
         PIXEL31_10
-        
+
 
 }
 
@@ -2439,7 +2439,7 @@ if(pattern<83){
         }
         PIXEL30_80
         PIXEL31_10
-        
+
 
 }else{
 
@@ -2473,7 +2473,7 @@ if(pattern<83){
         }
         PIXEL30_80
         PIXEL31_10
-        
+
 
 }
 
@@ -2508,7 +2508,7 @@ if(pattern<85){
         PIXEL21_30
         PIXEL30_80
         PIXEL31_10
-        
+
 
 }else{
 
@@ -2537,7 +2537,7 @@ if(pattern<85){
         PIXEL21_30
         PIXEL30_80
         PIXEL31_10
-        
+
 
 }
 
@@ -2566,7 +2566,7 @@ if(pattern<87){
         PIXEL31_10
         PIXEL32_10
         PIXEL33_80
-        
+
 
 }else{
 
@@ -2599,7 +2599,7 @@ if(pattern<87){
         }
         PIXEL30_80
         PIXEL31_10
-        
+
 
 }
 
@@ -2640,7 +2640,7 @@ if(pattern<89){
                 PIXEL32_50
                 PIXEL33_50
         }
-        
+
 
 }else{
 
@@ -2674,7 +2674,7 @@ if(pattern<89){
                 PIXEL32_12
                 PIXEL33_20
         }
-        
+
 
 }
 
@@ -2725,7 +2725,7 @@ if(pattern<91){
                 PIXEL32_12
                 PIXEL33_20
         }
-        
+
 
 }else{
 
@@ -2772,7 +2772,7 @@ if(pattern<91){
                 PIXEL32_12
                 PIXEL33_20
         }
-        
+
 
 }
 
@@ -2812,7 +2812,7 @@ if(pattern<93){
                 PIXEL32_12
                 PIXEL33_20
         }
-        
+
 
 }else{
 
@@ -2846,7 +2846,7 @@ if(pattern<93){
                 PIXEL32_12
                 PIXEL33_20
         }
-        
+
 
 }
 
@@ -2896,7 +2896,7 @@ if(pattern<95){
                 PIXEL32_12
                 PIXEL33_20
         }
-        
+
 
 }else{
 
@@ -2928,7 +2928,7 @@ if(pattern<95){
         PIXEL31_10
         PIXEL32_10
         PIXEL33_80
-        
+
 
 }
 
@@ -2963,7 +2963,7 @@ if(pattern<97){
         PIXEL31_32
         PIXEL32_10
         PIXEL33_80
-        
+
 
 }else{
 
@@ -2983,7 +2983,7 @@ if(pattern<97){
         PIXEL31_32
         PIXEL32_10
         PIXEL33_80
-        
+
 
 }
 
@@ -3006,7 +3006,7 @@ if(pattern<99){
         PIXEL31_32
         PIXEL32_10
         PIXEL33_80
-        
+
 
 }else{
 
@@ -3026,7 +3026,7 @@ if(pattern<99){
         PIXEL31_32
         PIXEL32_10
         PIXEL33_80
-        
+
 
 }
 
@@ -3052,7 +3052,7 @@ if(pattern<101){
         PIXEL31_32
         PIXEL32_10
         PIXEL33_80
-        
+
 
 }else{
 
@@ -3072,7 +3072,7 @@ if(pattern<101){
         PIXEL31_32
         PIXEL32_10
         PIXEL33_80
-        
+
 
 }
 
@@ -3095,7 +3095,7 @@ if(pattern<103){
         PIXEL31_32
         PIXEL32_10
         PIXEL33_80
-        
+
 
 }else{
 
@@ -3115,7 +3115,7 @@ if(pattern<103){
         PIXEL31_32
         PIXEL32_10
         PIXEL33_80
-        
+
 
 }
 
@@ -3150,7 +3150,7 @@ if(pattern<105){
         PIXEL23_61
         PIXEL32_10
         PIXEL33_80
-        
+
 
 }else{
 
@@ -3179,7 +3179,7 @@ if(pattern<105){
         PIXEL23_61
         PIXEL32_10
         PIXEL33_80
-        
+
 
 }
 
@@ -3208,7 +3208,7 @@ if(pattern<107){
         PIXEL23_61
         PIXEL32_10
         PIXEL33_80
-        
+
 
 }else{
 
@@ -3240,7 +3240,7 @@ if(pattern<107){
         PIXEL23_61
         PIXEL32_10
         PIXEL33_80
-        
+
 
 }
 
@@ -3272,7 +3272,7 @@ if(pattern<109){
         PIXEL23_61
         PIXEL32_10
         PIXEL33_80
-        
+
 
 }else{
 
@@ -3301,7 +3301,7 @@ if(pattern<109){
         PIXEL23_61
         PIXEL32_10
         PIXEL33_80
-        
+
 
 }
 
@@ -3330,7 +3330,7 @@ if(pattern<111){
         PIXEL23_61
         PIXEL32_10
         PIXEL33_80
-        
+
 
 }else{
 
@@ -3360,7 +3360,7 @@ if(pattern<111){
         PIXEL23_61
         PIXEL32_10
         PIXEL33_80
-        
+
 
 }
 
@@ -3401,7 +3401,7 @@ if(pattern<113){
                 PIXEL32_83
                 PIXEL33_50
         }
-        
+
 
 }else{
 
@@ -3430,7 +3430,7 @@ if(pattern<113){
                 PIXEL32_83
                 PIXEL33_50
         }
-        
+
 
 }
 
@@ -3467,7 +3467,7 @@ if(pattern<115){
         }
         PIXEL30_82
         PIXEL31_32
-        
+
 
 }else{
 
@@ -3501,7 +3501,7 @@ if(pattern<115){
         }
         PIXEL30_82
         PIXEL31_32
-        
+
 
 }
 
@@ -3534,7 +3534,7 @@ if(pattern<117){
         }
         PIXEL30_82
         PIXEL31_32
-        
+
 
 }else{
 
@@ -3561,7 +3561,7 @@ if(pattern<117){
         }
         PIXEL30_82
         PIXEL31_32
-        
+
 
 }
 
@@ -3590,7 +3590,7 @@ if(pattern<119){
         PIXEL31_32
         PIXEL32_10
         PIXEL33_80
-        
+
 
 }else{
 
@@ -3619,7 +3619,7 @@ if(pattern<119){
         PIXEL31_32
         PIXEL32_10
         PIXEL33_80
-        
+
 
 }
 
@@ -3654,7 +3654,7 @@ if(pattern<121){
         PIXEL23_10
         PIXEL32_10
         PIXEL33_80
-        
+
 
 }else{
 
@@ -3687,7 +3687,7 @@ if(pattern<121){
                 PIXEL32_12
                 PIXEL33_20
         }
-        
+
 
 }
 
@@ -3737,7 +3737,7 @@ if(pattern<123){
                 PIXEL32_12
                 PIXEL33_20
         }
-        
+
 
 }else{
 
@@ -3769,7 +3769,7 @@ if(pattern<123){
         PIXEL23_10
         PIXEL32_10
         PIXEL33_80
-        
+
 
 }
 
@@ -3801,7 +3801,7 @@ if(pattern<125){
         PIXEL23_10
         PIXEL32_10
         PIXEL33_80
-        
+
 
 }else{
 
@@ -3830,7 +3830,7 @@ if(pattern<125){
         PIXEL23_10
         PIXEL32_10
         PIXEL33_80
-        
+
 
 }
 
@@ -3865,7 +3865,7 @@ if(pattern<127){
         PIXEL23_10
         PIXEL32_10
         PIXEL33_80
-        
+
 
 }else{
 
@@ -3901,7 +3901,7 @@ if(pattern<127){
         PIXEL23_10
         PIXEL32_10
         PIXEL33_80
-        
+
 
 }
 
@@ -3942,7 +3942,7 @@ if(pattern<129){
         PIXEL31_60
         PIXEL32_60
         PIXEL33_20
-        
+
 
 }else{
 
@@ -3962,7 +3962,7 @@ if(pattern<129){
         PIXEL31_60
         PIXEL32_60
         PIXEL33_20
-        
+
 
 }
 
@@ -3985,7 +3985,7 @@ if(pattern<131){
         PIXEL31_60
         PIXEL32_60
         PIXEL33_20
-        
+
 
 }else{
 
@@ -4005,7 +4005,7 @@ if(pattern<131){
         PIXEL31_60
         PIXEL32_60
         PIXEL33_20
-        
+
 
 }
 
@@ -4031,7 +4031,7 @@ if(pattern<133){
         PIXEL31_60
         PIXEL32_60
         PIXEL33_20
-        
+
 
 }else{
 
@@ -4051,7 +4051,7 @@ if(pattern<133){
         PIXEL31_60
         PIXEL32_60
         PIXEL33_20
-        
+
 
 }
 
@@ -4074,7 +4074,7 @@ if(pattern<135){
         PIXEL31_60
         PIXEL32_60
         PIXEL33_20
-        
+
 
 }else{
 
@@ -4094,7 +4094,7 @@ if(pattern<135){
         PIXEL31_60
         PIXEL32_60
         PIXEL33_20
-        
+
 
 }
 
@@ -4123,7 +4123,7 @@ if(pattern<137){
         PIXEL31_61
         PIXEL32_60
         PIXEL33_20
-        
+
 
 }else{
 
@@ -4143,7 +4143,7 @@ if(pattern<137){
         PIXEL31_61
         PIXEL32_60
         PIXEL33_20
-        
+
 
 }
 
@@ -4173,7 +4173,7 @@ if(pattern<139){
         PIXEL31_61
         PIXEL32_60
         PIXEL33_20
-        
+
 
 }else{
 
@@ -4199,7 +4199,7 @@ if(pattern<139){
         PIXEL31_61
         PIXEL32_60
         PIXEL33_20
-        
+
 
 }
 
@@ -4225,7 +4225,7 @@ if(pattern<141){
         PIXEL31_61
         PIXEL32_60
         PIXEL33_20
-        
+
 
 }else{
 
@@ -4245,7 +4245,7 @@ if(pattern<141){
         PIXEL31_61
         PIXEL32_60
         PIXEL33_20
-        
+
 
 }
 
@@ -4277,7 +4277,7 @@ if(pattern<143){
         PIXEL31_61
         PIXEL32_60
         PIXEL33_20
-        
+
 
 }else{
 
@@ -4306,7 +4306,7 @@ if(pattern<143){
         PIXEL31_61
         PIXEL32_60
         PIXEL33_20
-        
+
 
 }
 
@@ -4338,7 +4338,7 @@ if(pattern<145){
         PIXEL31_60
         PIXEL32_82
         PIXEL33_82
-        
+
 
 }else{
 
@@ -4358,7 +4358,7 @@ if(pattern<145){
         PIXEL31_60
         PIXEL32_82
         PIXEL33_82
-        
+
 
 }
 
@@ -4390,7 +4390,7 @@ if(pattern<147){
         PIXEL30_20
         PIXEL31_60
         PIXEL32_82
-        
+
 
 }else{
 
@@ -4417,7 +4417,7 @@ if(pattern<147){
         PIXEL31_60
         PIXEL32_82
         PIXEL33_82
-        
+
 
 }
 
@@ -4443,7 +4443,7 @@ if(pattern<149){
         PIXEL31_60
         PIXEL32_82
         PIXEL33_82
-        
+
 
 }else{
 
@@ -4463,7 +4463,7 @@ if(pattern<149){
         PIXEL31_60
         PIXEL32_82
         PIXEL33_82
-        
+
 
 }
 
@@ -4495,7 +4495,7 @@ if(pattern<151){
         PIXEL30_20
         PIXEL31_60
         PIXEL32_82
-        
+
 
 }else{
 
@@ -4519,7 +4519,7 @@ if(pattern<151){
         PIXEL31_60
         PIXEL32_82
         PIXEL33_82
-        
+
 
 }
 
@@ -4548,7 +4548,7 @@ if(pattern<153){
         PIXEL31_61
         PIXEL32_82
         PIXEL33_82
-        
+
 
 }else{
 
@@ -4568,7 +4568,7 @@ if(pattern<153){
         PIXEL31_61
         PIXEL32_82
         PIXEL33_82
-        
+
 
 }
 
@@ -4605,7 +4605,7 @@ if(pattern<155){
         PIXEL31_61
         PIXEL32_82
         PIXEL33_82
-        
+
 
 }else{
 
@@ -4631,7 +4631,7 @@ if(pattern<155){
         PIXEL31_61
         PIXEL32_82
         PIXEL33_82
-        
+
 
 }
 
@@ -4657,7 +4657,7 @@ if(pattern<157){
         PIXEL31_61
         PIXEL32_82
         PIXEL33_82
-        
+
 
 }else{
 
@@ -4677,7 +4677,7 @@ if(pattern<157){
         PIXEL31_61
         PIXEL32_82
         PIXEL33_82
-        
+
 
 }
 
@@ -4713,7 +4713,7 @@ if(pattern<159){
         PIXEL31_61
         PIXEL32_82
         PIXEL33_82
-        
+
 
 }else{
 
@@ -4743,7 +4743,7 @@ if(pattern<159){
         PIXEL31_61
         PIXEL32_82
         PIXEL33_82
-        
+
 
 }
 
@@ -4778,7 +4778,7 @@ if(pattern<161){
         PIXEL31_60
         PIXEL32_60
         PIXEL33_20
-        
+
 
 }else{
 
@@ -4798,7 +4798,7 @@ if(pattern<161){
         PIXEL31_60
         PIXEL32_60
         PIXEL33_20
-        
+
 
 }
 
@@ -4821,7 +4821,7 @@ if(pattern<163){
         PIXEL31_60
         PIXEL32_60
         PIXEL33_20
-        
+
 
 }else{
 
@@ -4841,7 +4841,7 @@ if(pattern<163){
         PIXEL31_60
         PIXEL32_60
         PIXEL33_20
-        
+
 
 }
 
@@ -4867,7 +4867,7 @@ if(pattern<165){
         PIXEL31_60
         PIXEL32_60
         PIXEL33_20
-        
+
 
 }else{
 
@@ -4887,7 +4887,7 @@ if(pattern<165){
         PIXEL31_60
         PIXEL32_60
         PIXEL33_20
-        
+
 
 }
 
@@ -4910,7 +4910,7 @@ if(pattern<167){
         PIXEL31_60
         PIXEL32_60
         PIXEL33_20
-        
+
 
 }else{
 
@@ -4930,7 +4930,7 @@ if(pattern<167){
         PIXEL31_60
         PIXEL32_60
         PIXEL33_20
-        
+
 
 }
 
@@ -4959,7 +4959,7 @@ if(pattern<169){
         PIXEL31_81
         PIXEL32_60
         PIXEL33_20
-        
+
 
 }else{
 
@@ -4979,7 +4979,7 @@ if(pattern<169){
         PIXEL31_81
         PIXEL32_60
         PIXEL33_20
-        
+
 
 }
 
@@ -5011,7 +5011,7 @@ if(pattern<171){
         PIXEL31_81
         PIXEL32_60
         PIXEL33_20
-        
+
 
 }else{
 
@@ -5040,7 +5040,7 @@ if(pattern<171){
         PIXEL31_81
         PIXEL32_60
         PIXEL33_20
-        
+
 
 }
 
@@ -5066,7 +5066,7 @@ if(pattern<173){
         PIXEL31_81
         PIXEL32_60
         PIXEL33_20
-        
+
 
 }else{
 
@@ -5086,7 +5086,7 @@ if(pattern<173){
         PIXEL31_81
         PIXEL32_60
         PIXEL33_20
-        
+
 
 }
 
@@ -5116,7 +5116,7 @@ if(pattern<175){
         PIXEL31_81
         PIXEL32_60
         PIXEL33_20
-        
+
 
 }else{
 
@@ -5140,7 +5140,7 @@ if(pattern<175){
         PIXEL31_81
         PIXEL32_60
         PIXEL33_20
-        
+
 
 }
 
@@ -5172,7 +5172,7 @@ if(pattern<177){
         PIXEL31_60
         PIXEL32_82
         PIXEL33_82
-        
+
 
 }else{
 
@@ -5192,7 +5192,7 @@ if(pattern<177){
         PIXEL31_60
         PIXEL32_82
         PIXEL33_82
-        
+
 
 }
 
@@ -5224,7 +5224,7 @@ if(pattern<179){
         PIXEL30_20
         PIXEL31_60
         PIXEL32_82
-        
+
 
 }else{
 
@@ -5251,7 +5251,7 @@ if(pattern<179){
         PIXEL31_60
         PIXEL32_82
         PIXEL33_82
-        
+
 
 }
 
@@ -5277,7 +5277,7 @@ if(pattern<181){
         PIXEL31_60
         PIXEL32_82
         PIXEL33_82
-        
+
 
 }else{
 
@@ -5297,7 +5297,7 @@ if(pattern<181){
         PIXEL31_60
         PIXEL32_82
         PIXEL33_82
-        
+
 
 }
 
@@ -5329,7 +5329,7 @@ if(pattern<183){
         PIXEL30_20
         PIXEL31_60
         PIXEL32_82
-        
+
 
 }else{
 
@@ -5353,7 +5353,7 @@ if(pattern<183){
         PIXEL31_60
         PIXEL32_82
         PIXEL33_82
-        
+
 
 }
 
@@ -5382,7 +5382,7 @@ if(pattern<185){
         PIXEL31_81
         PIXEL32_82
         PIXEL33_82
-        
+
 
 }else{
 
@@ -5402,7 +5402,7 @@ if(pattern<185){
         PIXEL31_81
         PIXEL32_82
         PIXEL33_82
-        
+
 
 }
 
@@ -5439,7 +5439,7 @@ if(pattern<187){
         PIXEL31_81
         PIXEL32_82
         PIXEL33_82
-        
+
 
 }else{
 
@@ -5468,7 +5468,7 @@ if(pattern<187){
         PIXEL31_81
         PIXEL32_82
         PIXEL33_82
-        
+
 
 }
 
@@ -5494,7 +5494,7 @@ if(pattern<189){
         PIXEL31_81
         PIXEL32_82
         PIXEL33_82
-        
+
 
 }else{
 
@@ -5514,7 +5514,7 @@ if(pattern<189){
         PIXEL31_81
         PIXEL32_82
         PIXEL33_82
-        
+
 
 }
 
@@ -5546,7 +5546,7 @@ if(pattern<191){
         PIXEL30_81
         PIXEL31_81
         PIXEL32_82
-        
+
 
 }else{
 
@@ -5574,7 +5574,7 @@ if(pattern<191){
         PIXEL31_81
         PIXEL32_82
         PIXEL33_82
-        
+
 
 }
 
@@ -5612,7 +5612,7 @@ if(pattern<193){
         PIXEL31_10
         PIXEL32_31
         PIXEL33_81
-        
+
 
 }else{
 
@@ -5632,7 +5632,7 @@ if(pattern<193){
         PIXEL31_10
         PIXEL32_31
         PIXEL33_81
-        
+
 
 }
 
@@ -5655,7 +5655,7 @@ if(pattern<195){
         PIXEL31_10
         PIXEL32_31
         PIXEL33_81
-        
+
 
 }else{
 
@@ -5675,7 +5675,7 @@ if(pattern<195){
         PIXEL31_10
         PIXEL32_31
         PIXEL33_81
-        
+
 
 }
 
@@ -5701,7 +5701,7 @@ if(pattern<197){
         PIXEL31_10
         PIXEL32_31
         PIXEL33_81
-        
+
 
 }else{
 
@@ -5721,7 +5721,7 @@ if(pattern<197){
         PIXEL31_10
         PIXEL32_31
         PIXEL33_81
-        
+
 
 }
 
@@ -5744,7 +5744,7 @@ if(pattern<199){
         PIXEL31_10
         PIXEL32_31
         PIXEL33_81
-        
+
 
 }else{
 
@@ -5764,7 +5764,7 @@ if(pattern<199){
         PIXEL31_10
         PIXEL32_31
         PIXEL33_81
-        
+
 
 }
 
@@ -5802,7 +5802,7 @@ if(pattern<201){
         }
         PIXEL22_31
         PIXEL23_81
-        
+
 
 }else{
 
@@ -5829,7 +5829,7 @@ if(pattern<201){
         PIXEL23_81
         PIXEL32_31
         PIXEL33_81
-        
+
 
 }
 
@@ -5866,7 +5866,7 @@ if(pattern<203){
         PIXEL23_81
         PIXEL32_31
         PIXEL33_81
-        
+
 
 }else{
 
@@ -5892,7 +5892,7 @@ if(pattern<203){
         PIXEL31_10
         PIXEL32_31
         PIXEL33_81
-        
+
 
 }
 
@@ -5927,7 +5927,7 @@ if(pattern<205){
         }
         PIXEL22_31
         PIXEL23_81
-        
+
 
 }else{
 
@@ -5954,7 +5954,7 @@ if(pattern<205){
         PIXEL23_81
         PIXEL32_31
         PIXEL33_81
-        
+
 
 }
 
@@ -5991,7 +5991,7 @@ if(pattern<207){
         PIXEL23_81
         PIXEL32_31
         PIXEL33_81
-        
+
 
 }else{
 
@@ -6020,7 +6020,7 @@ if(pattern<207){
         PIXEL31_10
         PIXEL32_31
         PIXEL33_81
-        
+
 
 }
 
@@ -6058,7 +6058,7 @@ if(pattern<209){
         }
         PIXEL30_80
         PIXEL31_10
-        
+
 
 }else{
 
@@ -6084,7 +6084,7 @@ if(pattern<209){
         }
         PIXEL30_80
         PIXEL31_10
-        
+
 
 }
 
@@ -6113,7 +6113,7 @@ if(pattern<211){
         }
         PIXEL30_80
         PIXEL31_10
-        
+
 
 }else{
 
@@ -6139,7 +6139,7 @@ if(pattern<211){
         }
         PIXEL30_80
         PIXEL31_10
-        
+
 
 }
 
@@ -6174,7 +6174,7 @@ if(pattern<213){
         PIXEL21_30
         PIXEL30_80
         PIXEL31_10
-        
+
 
 }else{
 
@@ -6203,7 +6203,7 @@ if(pattern<213){
         PIXEL21_30
         PIXEL30_80
         PIXEL31_10
-        
+
 
 }
 
@@ -6238,7 +6238,7 @@ if(pattern<215){
         }
         PIXEL30_80
         PIXEL31_10
-        
+
 
 }else{
 
@@ -6268,7 +6268,7 @@ if(pattern<215){
         }
         PIXEL30_80
         PIXEL31_10
-        
+
 
 }
 
@@ -6303,7 +6303,7 @@ if(pattern<217){
         }
         PIXEL30_80
         PIXEL31_10
-        
+
 
 }else{
 
@@ -6329,7 +6329,7 @@ if(pattern<217){
         }
         PIXEL30_80
         PIXEL31_10
-        
+
 
 }
 
@@ -6379,7 +6379,7 @@ if(pattern<219){
                 PIXEL32_50
                 PIXEL33_50
         }
-        
+
 
 }else{
 
@@ -6411,7 +6411,7 @@ if(pattern<219){
         }
         PIXEL30_80
         PIXEL31_10
-        
+
 
 }
 
@@ -6450,7 +6450,7 @@ if(pattern<221){
                 PIXEL32_50
                 PIXEL33_50
         }
-        
+
 
 }else{
 
@@ -6479,7 +6479,7 @@ if(pattern<221){
         PIXEL21_30
         PIXEL30_80
         PIXEL31_10
-        
+
 
 }
 
@@ -6514,7 +6514,7 @@ if(pattern<223){
         }
         PIXEL30_80
         PIXEL31_10
-        
+
 
 }else{
 
@@ -6550,7 +6550,7 @@ if(pattern<223){
         }
         PIXEL30_80
         PIXEL31_10
-        
+
 
 }
 
@@ -6585,7 +6585,7 @@ if(pattern<225){
         PIXEL31_32
         PIXEL32_31
         PIXEL33_81
-        
+
 
 }else{
 
@@ -6605,7 +6605,7 @@ if(pattern<225){
         PIXEL31_32
         PIXEL32_31
         PIXEL33_81
-        
+
 
 }
 
@@ -6628,7 +6628,7 @@ if(pattern<227){
         PIXEL31_32
         PIXEL32_31
         PIXEL33_81
-        
+
 
 }else{
 
@@ -6648,7 +6648,7 @@ if(pattern<227){
         PIXEL31_32
         PIXEL32_31
         PIXEL33_81
-        
+
 
 }
 
@@ -6674,7 +6674,7 @@ if(pattern<229){
         PIXEL31_32
         PIXEL32_31
         PIXEL33_81
-        
+
 
 }else{
 
@@ -6694,7 +6694,7 @@ if(pattern<229){
         PIXEL31_32
         PIXEL32_31
         PIXEL33_81
-        
+
 
 }
 
@@ -6717,7 +6717,7 @@ if(pattern<231){
         PIXEL31_32
         PIXEL32_31
         PIXEL33_81
-        
+
 
 }else{
 
@@ -6737,7 +6737,7 @@ if(pattern<231){
         PIXEL31_32
         PIXEL32_31
         PIXEL33_81
-        
+
 
 }
 
@@ -6775,7 +6775,7 @@ if(pattern<233){
         }
         PIXEL22_31
         PIXEL23_81
-        
+
 
 }else{
 
@@ -6799,7 +6799,7 @@ if(pattern<233){
         PIXEL31_0
         PIXEL32_31
         PIXEL33_81
-        
+
 
 }
 
@@ -6835,7 +6835,7 @@ if(pattern<235){
         PIXEL23_81
         PIXEL32_31
         PIXEL33_81
-        
+
 
 }else{
 
@@ -6865,7 +6865,7 @@ if(pattern<235){
         PIXEL31_0
         PIXEL32_31
         PIXEL33_81
-        
+
 
 }
 
@@ -6900,7 +6900,7 @@ if(pattern<237){
         }
         PIXEL22_31
         PIXEL23_81
-        
+
 
 }else{
 
@@ -6924,7 +6924,7 @@ if(pattern<237){
         PIXEL31_0
         PIXEL32_31
         PIXEL33_81
-        
+
 
 }
 
@@ -6956,7 +6956,7 @@ if(pattern<239){
         }
         PIXEL22_31
         PIXEL23_81
-        
+
 
 }else{
 
@@ -6984,7 +6984,7 @@ if(pattern<239){
         PIXEL31_0
         PIXEL32_31
         PIXEL33_81
-        
+
 
 }
 
@@ -7025,7 +7025,7 @@ if(pattern<241){
                 PIXEL32_83
                 PIXEL33_50
         }
-        
+
 
 }else{
 
@@ -7054,7 +7054,7 @@ if(pattern<241){
                 PIXEL32_83
                 PIXEL33_50
         }
-        
+
 
 }
 
@@ -7090,7 +7090,7 @@ if(pattern<243){
         }
         PIXEL30_82
         PIXEL31_32
-        
+
 
 }else{
 
@@ -7119,7 +7119,7 @@ if(pattern<243){
                 PIXEL32_83
                 PIXEL33_50
         }
-        
+
 
 }
 
@@ -7149,7 +7149,7 @@ if(pattern<245){
         } else {
                 PIXEL33_20
         }
-        
+
 
 }else{
 
@@ -7173,7 +7173,7 @@ if(pattern<245){
         } else {
                 PIXEL33_20
         }
-        
+
 
 }
 
@@ -7206,7 +7206,7 @@ if(pattern<247){
         } else {
                 PIXEL33_20
         }
-        
+
 
 }else{
 
@@ -7234,7 +7234,7 @@ if(pattern<247){
         } else {
                 PIXEL33_20
         }
-        
+
 
 }
 
@@ -7275,7 +7275,7 @@ if(pattern<249){
                 PIXEL32_50
                 PIXEL33_50
         }
-        
+
 
 }else{
 
@@ -7305,7 +7305,7 @@ if(pattern<249){
                 PIXEL30_20
         }
         PIXEL31_0
-        
+
 
 }
 
@@ -7340,7 +7340,7 @@ if(pattern<251){
                 PIXEL32_50
                 PIXEL33_50
         }
-        
+
 
 }else{
 
@@ -7376,7 +7376,7 @@ if(pattern<251){
                 PIXEL30_20
         }
         PIXEL31_0
-        
+
 
 }
 
@@ -7412,7 +7412,7 @@ if(pattern<253){
         } else {
                 PIXEL33_20
         }
-        
+
 
 }else{
 
@@ -7440,7 +7440,7 @@ if(pattern<253){
         } else {
                 PIXEL33_20
         }
-        
+
 
 }
 
@@ -7479,7 +7479,7 @@ if(pattern<255){
         } else {
                 PIXEL33_20
         }
-        
+
 
 }else{
 
@@ -7515,7 +7515,7 @@ if(pattern<255){
         } else {
                 PIXEL33_20
         }
-        
+
 
 }
 

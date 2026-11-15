@@ -185,7 +185,7 @@ for scale in [2, 4]:
         + shader[shader.index("void main()") : start]
         + f"gl_FragColor=vec4(vec3(calculate(c,yy,pixel,pattern))/255.0,1.0);\n}}\n"
     )
-    (out / f"hq{scale}x.fs").write_text(shader)
+    (out / f"hq{scale}x.fs").write_text("\n".join(line.rstrip() for line in shader.splitlines()) + "\n")
     (out / "manifest.ini").write_text(
         f"[shader]\nname=HQ{scale}X (VBA-M)\nauthor=VBA-M contributors / GLSL port\ndescription=VBA-M portable 32-bit HQ{scale}X\npasses=1\n\n[pass.0]\nfragmentShader=hq{scale}x.fs\nblend=0\nfilter=0\nwidth=-{scale}\nheight=-{scale}\n"
     )
