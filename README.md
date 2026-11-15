@@ -11,7 +11,7 @@ Original VBA-M portable 32-bit **HQ2X** and **HQ4X**, ported to mGBA shaders.
 
 ## Install
 
-Download the shader ZIP from [Releases](https://github.com/krupar101/mgba-vba-hqx-shaders/releases).
+Download the shader ZIP from [Releases](https://github.com/krupar101/mgba-hqx-shaders/releases).
 It contains only these two `.shader` folders. Extract it, keep each folder intact,
 and load the desired folder in mGBA's shader settings. Each includes its manifest,
 fragment shader, README and GPL license. Source checkouts keep them in `shaders/`.
