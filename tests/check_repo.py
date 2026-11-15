@@ -23,7 +23,7 @@ def main():
     assert actual == set(EXPECTED), f"unexpected/missing bundles: {actual ^ set(EXPECTED)}"
     for name, (fragment, scale) in EXPECTED.items():
         folder = BUNDLES / name
-        assert {p.name for p in folder.iterdir()} == {"README.txt", "manifest.ini", fragment}, name
+        assert {p.name for p in folder.iterdir()} == {"README.txt", "LICENSE", "manifest.ini", fragment}, name
         parser = configparser.ConfigParser(interpolation=None)
         with (folder / "manifest.ini").open(encoding="utf-8") as fh:
             parser.read_file(fh)
@@ -37,6 +37,7 @@ def main():
         source = (folder / fragment).read_text(encoding="utf-8")
         assert "void main()" in source and "gl_FragColor" in source, name
         assert (folder / "README.txt").stat().st_size, name
+        assert (folder / "LICENSE").read_bytes() == (ROOT / "LICENSE").read_bytes(), name
     print(f"PASS: all {len(EXPECTED)} shader bundles have complete, consistent manifests and files")
 
 

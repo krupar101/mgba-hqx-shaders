@@ -118,7 +118,8 @@ HQ2X follows classic VisualBoyAdvance 16-bit C filtering, not
 the x86 assembly HQ4X implementation.
 Quantizes mGBA's RGB888 source to RGB{bits} before filtering, and converts the
 result back to RGB888. Choose the color mode you prefer visually.
-See docs/COMPATIBILITY.md for limitations and testing scope.
+Compatibility notes and limitations:
+https://github.com/krupar101/mgba-vba-hqx-shaders/blob/main/docs/COMPATIBILITY.md
 ''')
         # Compiled pinned C interpolation/pattern rules as an independent reference.
         cpp='#include <cstdint>\n'
@@ -176,3 +177,7 @@ height=-4
 The underlying algorithm is still HQ2X, with each computed pixel repeated
 2x2 for a larger crisp window. It is NOT the unrelated HQ4X algorithm.
 """)
+
+# Every standalone shader bundle includes a GPL license in the release ZIP.
+for bundle in (ROOT / "shaders").glob("hq2x-classic-*.shader"):
+    (bundle / "LICENSE").write_bytes((ROOT / "LICENSE").read_bytes())

@@ -7,9 +7,10 @@ n = int(sys.argv[1])
 zoom = os.environ.get("HQX_SHADER_BUNDLE", "").startswith("hq2x-") and n == 4
 reference_scale = 2 if zoom else n
 gl = importlib.import_module("gl_render")
-ref = C.CDLL(
-    str(Path(__file__).resolve().parents[1] / "build" / (f"ref{reference_scale}" + (f"-{os.environ['HQX_VARIANT']}" if os.environ.get("HQX_VARIANT") else "") + ".so"))
-).reference
+ref_file = os.environ.get("HQX_REFERENCE_PATH") or str(
+    Path(__file__).resolve().parents[1] / "build" / (f"ref{reference_scale}" + (f"-{os.environ['HQX_VARIANT']}" if os.environ.get("HQX_VARIANT") else "") + ".so")
+)
+ref = C.CDLL(ref_file).reference
 ref.argtypes = [C.POINTER(C.c_uint32), C.POINTER(C.c_uint32)]
 assert n in (2, 4)
 assert gl.WIDTH == gl.HEIGHT == 8
@@ -49,5 +50,5 @@ for fi, f in enumerate(frames[:int(os.environ.get("HQX_FRAME_LIMIT", len(frames)
                     got = actual[(y * n + sy) * 8 * n + x * n + sx]
                     assert got == expected, (fi, x, y, sx, sy, got, expected)
 print(
-    f"PASS {'HQ2X @4x' if zoom else f'HQ{n}X'} {os.environ.get('HQX_VARIANT','VBA-M 32-bit')}: all pixels match compiled VBA-M C reference across {min(len(frames), int(os.environ.get('HQX_FRAME_LIMIT', len(frames))))} frames"
+    f"PASS {'HQ2X @4x' if zoom else f'HQ{n}X'} {os.environ.get('HQX_VARIANT','VBA-M 32-bit')}: all pixels match compiled {'supplied' if os.environ.get('HQX_REFERENCE_PATH') else 'VBA-M'} C reference across {min(len(frames), int(os.environ.get('HQX_FRAME_LIMIT', len(frames))))} frames"
 )

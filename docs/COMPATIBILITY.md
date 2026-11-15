@@ -64,9 +64,14 @@ repeat its 2x pixels over a 4x output, without bilinear resampling. They are
 not HQ4x and do not claim to match the legacy x86 HQ4x assembly path.
 
 The HQ2x patterns are taken from the pinned VBA-M source snapshot; this project
-does not yet vendor a separately checksummed original VBA 1.8.0 release.
-Consequently, it validates equality with the **pinned 16-bit reference code**,
-not bit-identity with every historical Windows build or display pipeline.
+does not vendor a separately checksummed original VBA 1.8.0 source release.
+A review of original VBA 1.8 C source confirms the same 15/16/32-bit masks,
+thresholds, interpolation operation names and HQ2x dispatch structure.
+For an actual old-source pixel-reference comparison, use
+`make vba18-test VBA18_SOURCE_DIR=/path/to/original/src`, which will compile
+the two unmodified historical source headers you provide and compare them to
+the OpenGL shaders. Ordinary tests instead validate the pinned modern reference.
+These checks cannot prove bit-identity with every historical Windows build or display pipeline.
 The old emulator may use different output RGB expansion, color conversion,
 filter settings or window resampling. If comparing screenshots, use the same
 source frame, disable bilinear filtering, and compare at the same output size.
@@ -78,3 +83,5 @@ offers optional GBA-sized 2× border/orientation smoke tests via
 `make classic-native-test`. The optional
 `make classic-4x-test` separately tests 4× OpenGL pixel output and borders. Both original shaders are
 still included and validated separately.
+
+See [the original VBA 1.8 source review](VBA18_SOURCE_REVIEW.md) for primary-source links and verification boundaries.
