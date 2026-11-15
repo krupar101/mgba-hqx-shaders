@@ -3,7 +3,7 @@ CXX ?= c++
 CXXFLAGS ?= -O2
 VENDOR := vendor/vbam
 
-.PHONY: generate generated-check repo-check reference classic-reference classic-test classic-native-test classic-4x-test test verify package package-test preview clean
+.PHONY: generate generated-check repo-check reference classic-reference classic-test classic-native-test classic-4x-test test verify package package-test vba18-test preview clean
 
 generate:
 	$(PYTHON) tools/generate.py
@@ -14,12 +14,15 @@ generated-check:
 
 repo-check:
 	$(PYTHON) tests/check_repo.py
+	$(PYTHON) tests/check_docs.py
 
 reference: generate
+	$(PYTHON) tests/check_vba18_harness.py
 	$(CXX) $(CXXFLAGS) -std=c++11 -shared -fPIC -I$(VENDOR) build/ref2.cpp -o build/ref2.so
 	$(CXX) $(CXXFLAGS) -std=c++11 -shared -fPIC -I$(VENDOR) build/ref4.cpp -o build/ref4.so
 
 classic-reference: generate
+	$(PYTHON) tests/check_vba18_harness.py
 	$(CXX) $(CXXFLAGS) -std=c++11 -shared -fPIC -I$(VENDOR) build/ref2-classic-565.cpp -o build/ref2-classic-565.so
 	$(CXX) $(CXXFLAGS) -std=c++11 -shared -fPIC -I$(VENDOR) build/ref2-classic-555.cpp -o build/ref2-classic-555.so
 
@@ -54,8 +57,13 @@ package: generated-check repo-check
 package-test: package
 	$(PYTHON) tests/check_package.py
 
-preview: reference
+# Supply a directory containing unmodified VBA 1.8 src/hq2x.h and src/interp.h.
+vba18-test: generate
+	$(PYTHON) -u tests/compare_vba18.py "$(VBA18_SOURCE_DIR)"
+
+preview: reference classic-reference
 	$(PYTHON) tools/preview.py
+	$(PYTHON) tests/check_preview.py
 
 clean:
 	rm -rf build dist

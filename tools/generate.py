@@ -225,3 +225,7 @@ for scale in [2, 4]:
         cpp += '#include "hq4x_pattern.h"\n'
     cpp += "}\n"
     (ROOT / "build" / f"ref{scale}.cpp").write_text(cpp)
+
+# A shader-only release must still carry the complete GPL license.
+for bundle in (ROOT / "shaders").glob("hq[24]x.shader"):
+    (bundle / "LICENSE").write_bytes((ROOT / "LICENSE").read_bytes())

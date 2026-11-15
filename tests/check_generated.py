@@ -28,6 +28,7 @@ def main():
     with tempfile.TemporaryDirectory(prefix="hqx-generated-") as directory:
         temporary = Path(directory)
         shutil.copytree(ROOT / "vendor", temporary / "vendor")
+        shutil.copy2(ROOT / "LICENSE", temporary / "LICENSE")
         (temporary / "tools").mkdir()
         (temporary / "shaders").mkdir()
         for generator in GENERATORS:
