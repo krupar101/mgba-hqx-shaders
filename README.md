@@ -1,4 +1,4 @@
-# VBA-M HQX shaders for mGBA
+# HQX shaders for mGBA
 
 Original VBA-M portable 32-bit **HQ2X** and **HQ4X**, ported to mGBA shaders.
 
