@@ -1,0 +1,36 @@
+{
+  "repository": "https://github.com/visualboyadvance-m/visualboyadvance-m",
+  "revision": "128378e64c74d0f45f11b193d18f35e99dec3b08",
+  "files": [
+    {
+      "file": "hq2x.cpp",
+      "upstream_path": "src/components/filters/internal/hq2x.cpp",
+      "sha256": "38574eeff2db508e56c6b0d2de31109d7ed32c20a2d176b1a23984af65281494"
+    },
+    {
+      "file": "hq2x.h",
+      "upstream_path": "src/components/filters/internal/hq2x.h",
+      "sha256": "fa78e5005334855fafc3885640378fcf259c90e5058b46720e59f7eb4ab07388"
+    },
+    {
+      "file": "interp.h",
+      "upstream_path": "src/components/filters/internal/interp.h",
+      "sha256": "e7924443bbb8c219baf599209dabcdca9a2b52664a54147effaa8b5e207a7150"
+    },
+    {
+      "file": "hq_shared.h",
+      "upstream_path": "src/components/filters/internal/hq/c/hq_shared.h",
+      "sha256": "20d704311d435c362267651f554c13c5db7d6e270cdd9055e801fd869c75b41a"
+    },
+    {
+      "file": "hq_base.h",
+      "upstream_path": "src/components/filters/internal/hq/c/hq_base.h",
+      "sha256": "1dd179b71d17351dc1e31c5577ddfedb2da1c7441366454ed6d8c0d8ea823b5a"
+    },
+    {
+      "file": "hq4x_pattern.h",
+      "upstream_path": "src/components/filters/internal/hq/c/hq4x_pattern.h",
+      "sha256": "df3b604a4e1a33f74d83ea98e6d59e07c6aaddb5d3f53070a3a15c3ea1bad821"
+    }
+  ]
+}
