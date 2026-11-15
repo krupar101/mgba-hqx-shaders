@@ -49,39 +49,3 @@ conversion, color correction, window size, final interpolation, and capture
 scaling can all differ. Compare identical RGB input frames at native filter
 resolution when diagnosing an algorithm mismatch.
 
-## Classic VBA-style HQ2X (RGB565 and RGB555)
-
-The `hq2x-classic-*.shader` options implement the **16-bit** `hq2x_16_def`
-algorithm from the classic VisualBoyAdvance lineage, using the pinned VBA-M
-HQ2x pattern table and `interp_16_*` functions. Input RGB888 is quantized to
-RGB565 (16-bit) or RGB555 (15-bit), and **all** color differences, interpolation
-and truncation then operate on packed 16-bit values. Output channels are
-expanded back to RGB888 using integer `value * 255 / max` conversion.
-
-The original 1.8.0 release offered HQ2x (and LQ2x) but did not offer the later
-VBA-M HQ4x option. The `-4x.shader` variants therefore compute **HQ2x** and
-repeat its 2x pixels over a 4x output, without bilinear resampling. They are
-not HQ4x and do not claim to match the legacy x86 HQ4x assembly path.
-
-The HQ2x patterns are taken from the pinned VBA-M source snapshot; this project
-does not vendor a separately checksummed original VBA 1.8.0 source release.
-A review of original VBA 1.8 C source confirms the same 15/16/32-bit masks,
-thresholds, interpolation operation names and HQ2x dispatch structure.
-For an actual old-source pixel-reference comparison, use
-`make vba18-test VBA18_SOURCE_DIR=/path/to/original/src`, which will compile
-the two unmodified historical source headers you provide and compare them to
-the OpenGL shaders. Ordinary tests instead validate the pinned modern reference.
-These checks cannot prove bit-identity with every historical Windows build or display pipeline.
-The old emulator may use different output RGB expansion, color conversion,
-filter settings or window resampling. If comparing screenshots, use the same
-source frame, disable bilinear filtering, and compare at the same output size.
-
-`make classic-test` compiles upstream 16-bit interpolation/pattern helpers and
-compares rendered OpenGL 2× pixels for all 256 pattern masks, 256
-randomized frames, verifies the 4× shader files are identical to their 2× counterparts, and
-offers optional GBA-sized 2× border/orientation smoke tests via
-`make classic-native-test`. The optional
-`make classic-4x-test` separately tests 4× OpenGL pixel output and borders. Both original shaders are
-still included and validated separately.
-
-See [the original VBA 1.8 source review](VBA18_SOURCE_REVIEW.md) for primary-source links and verification boundaries.

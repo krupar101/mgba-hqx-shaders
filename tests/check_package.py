@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Assert the release ZIP contains ONLY the six installable shader bundles.
+"""Assert the release ZIP contains ONLY the two installable shader bundles.
 SPDX-License-Identifier: GPL-2.0-or-later
 """
 from pathlib import Path

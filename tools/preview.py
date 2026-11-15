@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Render a reproducible four-way HQX comparison from original synthetic art.
+"""Render a reproducible three-way HQX comparison from original synthetic art.
 
 The two HQ2x panels are displayed at 4x using *nearest-neighbor* enlargement;
 only the VBA-M HQ4x panel uses a genuine HQ4x algorithm.
@@ -23,7 +23,6 @@ if len(sys.argv) > 1:
     variant = sys.argv[1]
     configs = {
         "modern-hq2x": (2, None),
-        "classic-565-hq2x": (2, "classic-565"),
         "modern-hq4x": (4, None),
     }
     if variant not in configs:
@@ -71,7 +70,7 @@ draw.rectangle((79, 43, 82, 46), fill="#14223a")
 draw.line((72, 52, 80, 52), fill="#14223a", width=1)
 source.save(BUILD / "sample.png")
 
-for variant in ("modern-hq2x", "classic-565-hq2x", "modern-hq4x"):
+for variant in ("modern-hq2x", "modern-hq4x"):
     subprocess.run([sys.executable, str(Path(__file__)), variant], check=True)
 
 # Every panel is exactly 384x256, so the comparison does not favor one filter
@@ -90,7 +89,6 @@ draw.text(
 previews = [
     ("NEAREST / 4x", BUILD / "sample.png"),
     ("VBA-M HQ2X / 2x -> 4x", BUILD / "modern-hq2x-preview.png"),
-    ("Classic RGB565 HQ2X / 2x -> 4x", BUILD / "classic-565-hq2x-preview.png"),
     ("VBA-M HQ4X / native 4x", BUILD / "modern-hq4x-preview.png"),
 ]
 for i, (label, path) in enumerate(previews):
@@ -99,4 +97,4 @@ for i, (label, path) in enumerate(previews):
     image = Image.open(path).convert("RGB").resize((384, 256), Image.Resampling.NEAREST)
     canvas.paste(image, (x, 126))
 canvas.save(ROOT / "assets/comparison.png")
-print("Saved assets/comparison.png (four panels rendered using shipped shaders).")
+print("Saved assets/comparison.png (three panels rendered using shipped shaders).")

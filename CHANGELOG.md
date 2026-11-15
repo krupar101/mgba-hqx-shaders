@@ -1,3 +1,7 @@
+## Unreleased
+
+- Keep only original HQ2x and HQ4x. Remove classic variants and experimental smoothing/preservation filters, their tools and documentation. Release ZIP contains exactly two shader bundles.
+
 ## 2026-11-15 — README graphic verification and rendering audit
 
 - Extend the comparison graphic to show classic RGB565 HQ2x beside nearest-neighbor, modern VBA-M HQ2x and true VBA-M HQ4x, all at a fixed 4x final display size.

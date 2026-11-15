@@ -9,16 +9,8 @@ pixels = [
     for x in range(gl.WIDTH)
 ]
 actual = gl.render(pixels)
-mode = os.environ.get("HQX_VARIANT", "")
 def quantized(rgb):
-    if not mode:
-        return rgb
-    r,g,b = rgb
-    if mode == "classic-565":
-        return ((r>>3)*255//31, (g>>2)*255//63, (b>>3)*255//31)
-    if mode == "classic-555":
-        return ((r>>3)*255//31, (g>>3)*255//31, (b>>3)*255//31)
-    raise ValueError(mode)
+    return rgb
 expected = [
     (*quantized(pixels[(y // gl.SCALE) * gl.WIDTH + x // gl.SCALE]), 255)
     for y in range(gl.OUT_H)

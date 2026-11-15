@@ -13,7 +13,7 @@ import sys
 import tempfile
 
 ROOT = Path(__file__).resolve().parents[1]
-GENERATORS = ("generate.py", "generate_classic.py")
+GENERATORS = ("generate.py",)
 
 
 def files_under(path):

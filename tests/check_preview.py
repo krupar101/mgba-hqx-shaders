@@ -19,7 +19,6 @@ PIXELS = list(SOURCE.get_flattened_data() if hasattr(SOURCE, "get_flattened_data
 # dimensions. Each 3x3 reference neighborhood uses edge clamping matching mGBA.
 previews = (
     ("modern-hq2x", 2, "ref2.so"),
-    ("classic-565-hq2x", 2, "ref2-classic-565.so"),
     ("modern-hq4x", 4, "ref4.so"),
 )
 for variant, scale, reference_file in previews:
@@ -60,4 +59,4 @@ for i, path in enumerate(paths):
     actual = canvas.crop((x, y, x + 384, y + 256))
     expected = Image.open(path).convert("RGB").resize((384, 256), Image.Resampling.NEAREST)
     assert ImageChops.difference(actual, expected).getbbox() is None, f"Incorrect preview panel {i}: {path}"
-print("PASS comparison.png: all four labeled panels contain the exact intended output pixels")
+print("PASS comparison.png: all three labeled panels contain the exact intended output pixels")

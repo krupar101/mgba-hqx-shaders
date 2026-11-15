@@ -6,3 +6,5 @@ __pycache__/
 *.so
 *.o
 .DS_Store
+
+/local-captures/

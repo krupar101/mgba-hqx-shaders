@@ -11,10 +11,6 @@ BUNDLES = ROOT / "shaders"
 EXPECTED = {
     "hq2x.shader": ("hq2x.fs", -2),
     "hq4x.shader": ("hq4x.fs", -4),
-    "hq2x-classic-565.shader": ("hq2x.fs", -2),
-    "hq2x-classic-555.shader": ("hq2x.fs", -2),
-    "hq2x-classic-565-4x.shader": ("hq2x.fs", -4),
-    "hq2x-classic-555-4x.shader": ("hq2x.fs", -4),
 }
 
 
